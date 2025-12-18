@@ -1,6 +1,6 @@
 // ISSUE: Implement multiply function
 function multiply(a, b) {
-    return 0;
+    return a * b;  // Multiply a and b
 }
 
 module.exports = { multiply };
