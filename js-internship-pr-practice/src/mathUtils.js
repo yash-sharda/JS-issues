@@ -1,6 +1,5 @@
-// ISSUE: Implement multiply function
 function multiply(a, b) {
-    return 0;
+    return a * b;
 }
 
 module.exports = { multiply };

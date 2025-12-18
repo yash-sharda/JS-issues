@@ -1,6 +1,9 @@
-// ISSUE: Return sum of array elements
 function sumArray(arr) {
-    return 0;
+    let sum = 0;
+    for (let num of arr) {
+        sum += num;
+    }
+    return sum;
 }
 
 module.exports = { sumArray };
