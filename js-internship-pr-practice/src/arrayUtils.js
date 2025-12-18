@@ -1,6 +1,15 @@
-// ISSUE: Return sum of array elements
+// Returns the sum of all elements in the array
 function sumArray(arr) {
-    return 0;
+    if (!Array.isArray(arr)) {
+        throw new TypeError("Input must be an array");
+    }
+
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+
+    return sum;
 }
 
 module.exports = { sumArray };
