@@ -1,6 +1,6 @@
 // ISSUE: Convert string to uppercase
 function toUpperCase(str) {
-    return str;
+    return str.toUpperCase(); 
 }
 
 module.exports = { toUpperCase };
